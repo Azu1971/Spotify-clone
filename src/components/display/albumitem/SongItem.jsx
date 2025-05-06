@@ -1,4 +1,4 @@
-import "./AlbumItem.css"; // Import the CSS file for styling
+import "./albumitem.css"; // Import the CSS file for styling
 import { useContext } from "react";
 import { PlayerContext } from "../../../context/PlayerContext.jsx"; // Adjust the import path as necessary
 
