@@ -3,7 +3,7 @@ import Navbar from "../components/display/navbar/Navbar";
 import { useParams } from "react-router-dom";
 import { albumsData, songsData } from "../assets/assets";
 import { assets } from "../assets/assets";
-import "./displayAlbum.css";
+import "./displayalbum.css";
 import { PlayerContext } from "../context/PlayerContext";
 
 const DisplayAlbum = () => {
