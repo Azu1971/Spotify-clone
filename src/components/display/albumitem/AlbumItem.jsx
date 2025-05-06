@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "./AlbumItem.css"; // Import the CSS file for styling
+import "./albumitem.css"; // Import the CSS file for styling
 
 const AlbumItem = ({ id, name, desc, image }) => {
   const navigate = useNavigate();
