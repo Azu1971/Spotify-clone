@@ -1,0 +1,10 @@
+.album {
+    padding: 10px;
+}
+.album img {
+    border-radius: 5px;
+    width: 100%;
+}
+.album:hover {
+    background-color: #1a1a1a;
+}

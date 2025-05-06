@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+.navbar img {
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    padding: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: auto 2px;
+}
+.navbar-container button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: auto 5px;
+    justify-content: center;
+}
+.white {
+    background-color: white;
+    color: black;
+}
+
+.black {
+    background-color: #000000;
+    color: white;
+}
+
+.username {
+    font-size: 16px;
+    background-color: tomato;
+}

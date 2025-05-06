@@ -1,0 +1,45 @@
+.sidebar {
+    width: 20vw;
+    height: 90vh;
+    padding: 10px 15px;
+  }
+  .sidebar-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #121212;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .Elements {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .sidebar img {
+    width: 25px;
+    height: 25px;
+  }
+  .library-subicons {
+    justify-items: end;
+    display: flex;
+    gap: 5px;
+    margin-left: auto;
+  }
+  .library-subicons img {
+    width: 15px;
+    height: 15px;
+  }
+  .create {
+    background-color: #242424;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+  }
+  .create button {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+  }

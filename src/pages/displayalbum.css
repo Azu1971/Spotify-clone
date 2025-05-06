@@ -1,0 +1,54 @@
+.display-album {
+    padding: 10px;
+    margin: 10px;
+}
+.top {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-bottom: 20px;
+}
+.mainImage {
+    width: 100%;
+}
+
+.album-info {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.album-info h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.logo {
+    width: 15px;
+}
+
+.table-headers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    color: #979797;
+}
+.clock {
+    width: 15px;
+    padding-top: 2px;
+}
+
+
+
+.song {
+    align-items: center;
+}
+.name-image {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.songImage{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+}

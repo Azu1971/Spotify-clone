@@ -1,0 +1,19 @@
+.display {
+    grid-column: span 4;
+    background-color: #121212;
+    margin: 10px 0px;
+}
+
+.album-list {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    overflow: auto;
+}
+
+.album-list h1 {
+    grid-column: span 8;
+    padding-left: 10px;
+}
+.FeaturedCharts {
+    margin: 5px 5px;
+}
