@@ -1,5 +1,5 @@
 import React from "react";
-import "./Player.css"; // Assuming you have a CSS file for styling
+import "./player.css"; // Assuming you have a CSS file for styling
 import { songsData, assets } from "../../assets/assets"; // Adjust the import path as necessary
 import { useContext } from "react";
 import { PlayerContext } from "../../context/PlayerContext.jsx"; // Adjust the import path as necessary
